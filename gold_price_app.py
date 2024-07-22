@@ -36,6 +36,9 @@ def load_image(image_path):
     try:
         with open(image_path, "rb") as file:
             image_data = file.read()
+            if not image_data:
+                st.error(f"Image file {image_path} is empty.")
+                return None
             return Image.open(io.BytesIO(image_data))
     except Exception as e:
         st.error(f"Error loading image {image_path}: {e}")
