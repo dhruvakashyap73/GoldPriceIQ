@@ -51,7 +51,7 @@ def main():
         st.image(bg_image)
 
     # Giving a title
-    st.title('Gold Price Prediction Web App')
+    st.title('Gold Price Prediction')
 
     # Getting input data from user
     SPX = st.number_input("SPX")
