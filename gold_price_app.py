@@ -67,7 +67,7 @@ def main():
         price = gold_price_prediction([SPX, USO, SLV, EUR_USD])
         if price is not None:
             price= price/2.1
-            st.success(f'The Predicted Price: {price}$')
+            st.success(f'The Predicted Gold Price per gram : {price}$')
 
     # Displaying images
     st.subheader('Model Statistics:')
