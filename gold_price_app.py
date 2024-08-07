@@ -66,6 +66,7 @@ def main():
     if st.button('Predict Gold Price'):
         price = gold_price_prediction([SPX, USO, SLV, EUR_USD])
         if price is not None:
+            price= price/2.1
             st.success(f'The Predicted Price: {price}$')
 
     # Displaying images
