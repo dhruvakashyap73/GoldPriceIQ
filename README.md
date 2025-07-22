@@ -1,9 +1,9 @@
 # Gold Price Prediction using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 This project provides an end-to-end machine learning solution for predicting gold prices using historical data from the World Gold Council. It employs a Random Forest Regressor model integrated into a Streamlit-based web application for real-time predictions and visual insights.
 
-## 🔍 Key Features
+## Key Features
 - **Data Source:** World Gold Council (www.gold.org)
 - **Feature Engineering:** Includes economic indicators like SPX, USO, SLV, and EUR/USD, along with 5-day and 10-day moving averages.
 - **Algorithms Used:** Random Forest Regressor (best performing), Linear Regression, and Decision Tree Regressor.
@@ -11,7 +11,7 @@ This project provides an end-to-end machine learning solution for predicting gol
 - **UI/UX:** Streamlit frontend connected via Ngrok for remote access
 - **Visualizations:** Actual vs Predicted price plots, sentiment dashboards
 
-## 🚀 Technologies Used
+## Technologies Used
 - **Language:** Python
 - **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, Streamlit, pyngrok
 - **IDE:** Jupyter Notebook / VS Code
