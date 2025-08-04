@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="https://github.com/dhruvakashyap73/GoldPricePrediction/blob/main/Photos/Logo-GPIQ.png" alt="Logo" width="140" height="140">
+  <img src="https://github.com/dhruvakashyap73/GoldPriceIQ/blob/main/Photos/Logo-GPP.png" alt="Logo" width="250" height="250">
 </p>
 
----
-
-<h1 align="center"><strong>GoldPriceIQ</strong></h1>
+<h5 align="center"><strong>A Cloud based approch</strong></h5>
 
 ## Project Overview
 This project provides an end-to-end machine learning solution for predicting gold prices using historical data from the World Gold Council. It employs a Random Forest Regressor model integrated into a Streamlit-based web application for real-time predictions and visual insights.
