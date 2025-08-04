@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://github.com/dhruvakashyap73/GoldPricePrediction/blob/main/111.png" alt="Logo" width="120" height="120">
+</p>
 
-<img src="https://github.com/dhruvakashyap73/GoldPricePrediction/blob/main/111.png" alt="Logo" width="30" height="30" style="vertical-align:middle;"/> **Gold Price Prediction using Machine Learning**
+<h1 align="center"><strong>REJAG TECHNOLOGY</strong></h1>
+
 
 # Gold Price Prediction using Machine Learning
 
