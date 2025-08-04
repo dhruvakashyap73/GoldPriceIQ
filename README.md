@@ -4,10 +4,8 @@
 
 <h5 align="center"><strong>A Cloud based approch</strong></h5>
 
-# GoldPriceIQ
-
 ## Project Overview
-GoldPriceIQ is an end-to-end machine learning solution developed to predict future gold prices using historical market data and key economic indicators. The project employs a Random Forest Regressor model trained on enriched feature sets derived from reliable sources, including the World Gold Council. The final model is deployed through a Streamlit-based web application that allows users to input indicator values and receive real-time gold price predictions.
+GoldPriceIQ (Intelligence Quotient) is an end-to-end machine learning solution developed to predict future gold prices using historical market data and key economic indicators. The project employs a Random Forest Regressor model trained on enriched feature sets derived from reliable sources, including the World Gold Council. The final model is deployed through a Streamlit-based web application that allows users to input indicator values and receive real-time gold price predictions.
 
 The application emphasizes both prediction accuracy and usability. It provides model performance metrics and visual explanations, enabling users to understand not just what the prediction is, but also why the model made it. The solution is deployed on Streamlit Community Cloud and maintained via GitHub for reproducibility and collaboration.
 
