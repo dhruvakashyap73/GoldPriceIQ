@@ -1,3 +1,6 @@
+
+<img src="https://github.com/dhruvakashyap73/GoldPricePrediction/blob/main/111.png" alt="Logo" width="30" height="30" style="vertical-align:middle;"/> **Gold Price Prediction using Machine Learning**
+
 # Gold Price Prediction using Machine Learning
 
 ## Project Overview
