@@ -4,19 +4,30 @@
 
 <h5 align="center"><strong>A Cloud based approch</strong></h5>
 
+# GoldPriceIQ
+
 ## Project Overview
-This project provides an end-to-end machine learning solution for predicting gold prices using historical data from the World Gold Council. It employs a Random Forest Regressor model integrated into a Streamlit-based web application for real-time predictions and visual insights.
+GoldPriceIQ is an end-to-end machine learning solution developed to predict future gold prices using historical market data and key economic indicators. The project employs a Random Forest Regressor model trained on enriched feature sets derived from reliable sources, including the World Gold Council. The final model is deployed through a Streamlit-based web application that allows users to input indicator values and receive real-time gold price predictions.
+
+The application emphasizes both prediction accuracy and usability. It provides model performance metrics and visual explanations, enabling users to understand not just what the prediction is, but also why the model made it. The solution is deployed on Streamlit Community Cloud and maintained via GitHub for reproducibility and collaboration.
 
 ## Key Features
-- **Data Source:** World Gold Council (www.gold.org)
-- **Feature Engineering:** Includes economic indicators like SPX, USO, SLV, and EUR/USD, along with 5-day and 10-day moving averages.
-- **Algorithms Used:** Random Forest Regressor (best performing), Linear Regression, and Decision Tree Regressor.
-- **Performance Metrics:** MAE, RMSE, and R² Score
-- **UI/UX:** Streamlit frontend connected via Ngrok for remote access
-- **Visualizations:** Actual vs Predicted price plots, sentiment dashboards
+- Built using historical gold price data sourced from the World Gold Council.
+- Includes predictive features such as SPX (S&P 500 Index), USO (oil prices), SLV (silver prices), EUR/USD exchange rate, and short-term moving averages.
+- Trained and evaluated multiple regression models: Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
+- Final application uses Random Forest Regressor based on superior accuracy and robustness.
+- Provides prediction results along with evaluation metrics including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² Score.
+- User interface designed in Streamlit, allowing interactive input and instant predictions.
+- Deployed via Streamlit Community Cloud for easy public access and demonstration.
 
 ## Technologies Used
 - **Language:** Python
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, Streamlit, pyngrok
-- **IDE:** Jupyter Notebook / VS Code
-- **Deployment:** Streamlit + Ngrok
+- **Machine Learning & Data Processing:** scikit-learn, pandas, numpy
+- **Visualization:** matplotlib, seaborn
+- **Web App Framework:** Streamlit
+- **Model Deployment:** joblib (for saving/loading models), pyngrok (used for local tunneling during development)
+- **Development Tools:** Jupyter Notebook (for model training and experimentation), Visual Studio Code (for app development)
+- **Deployment Platform:** Streamlit Community Cloud
+- **Version Control:** GitHub
+
+
