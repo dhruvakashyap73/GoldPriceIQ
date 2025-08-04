@@ -1,7 +1,9 @@
 <p align="center">
   <img src="https://github.com/dhruvakashyap73/GoldPricePrediction/blob/main/Photos/Logo-GPIQ.png" alt="Logo" width="140" height="140">
 </p>
+
 ---
+
 <h1 align="center"><strong>GoldPriceIQ</strong></h1>
 
 ## Project Overview
